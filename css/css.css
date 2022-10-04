@@ -1,47 +1,70 @@
-*{
-	margin:0px;
-	padding:0px;
-	 font-family: orkney;
-}
-.flex{
-	display:flex;
-	align-items:center;
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: orkney;
 }
 
-.header{
-    border-bottom: 1px solid #eee;
+.flex {
+	display: flex;
+	align-items: center;
 }
-.header1{
-    background: #3c8031;
-  padding:6px;
-justify-content: space-between;
+
+.header {
+	border-bottom: 1px solid #eee;
 }
-.image{
-	width:12px;
+
+.header1 {
+	background: #3c8031;
+	padding: 6px;
+	justify-content: space-between;
 }
-.phoneNo{
-	color:#ffffff;
-	font-size:12px;
-	font-weight:400;
-                 margin: 0px 0px 0px 29px;
+
+.image {
+	width: 12px;
+}
+
+.phoneNo {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 400;
+	margin: 0px 0px 0px 29px;
 
 }
-.separator{
-	    margin: 0 8px;
+
+.separator {
+	margin: 0 8px;
 }
-.mail{
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 400;
+
+.mail {
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 400;
 
 }
-.mail img{
-width:17px;
-              margin: 0px 4px 0px 0px;
+
+.separator {
+	color: #ffffff;
 }
-.headerRight span{
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 400;
+
+.mail img {
+	width: 17px;
+	margin: 0px 4px 0px 0px;
 }
-	
+
+.headerRight {
+	margin-right: 82px;
+}
+
+.location {
+	width: 13px;
+}
+
+.headerRight span {
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.arrow {
+	width: 18px;
+}
