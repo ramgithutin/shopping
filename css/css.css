@@ -1,15 +1,47 @@
 *{
 	margin:0px;
 	padding:0px;
+	 font-family: orkney;
 }
 .flex{
 	display:flex;
+	align-items:center;
 }
 
 .header{
-	background-color:#333545;
+    border-bottom: 1px solid #eee;
 }
-.header img{
-	width:170px;
-	margin-left: 40px;
+.header1{
+    background: #3c8031;
+  padding:6px;
+justify-content: space-between;
 }
+.image{
+	width:12px;
+}
+.phoneNo{
+	color:#ffffff;
+	font-size:12px;
+	font-weight:400;
+                 margin: 0px 0px 0px 29px;
+
+}
+.separator{
+	    margin: 0 8px;
+}
+.mail{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.mail img{
+width:17px;
+              margin: 0px 4px 0px 0px;
+}
+.headerRight span{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+	
