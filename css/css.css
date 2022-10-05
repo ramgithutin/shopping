@@ -8,38 +8,33 @@
 	display: flex;
 	align-items: center;
 }
-
-.header {
-	border-bottom: 1px solid #eee;
+.point{
+	cursor: pointer;
 }
-
 .header1 {
 	background: #3c8031;
-	padding: 6px;
+	padding: 5px;
 	justify-content: space-between;
 }
 
 .image {
-	width: 12px;
+	width: 14px;
 }
 
-.phoneNo {
+.font {
 	color: #ffffff;
 	font-size: 12px;
 	font-weight: 400;
-	margin: 0px 0px 0px 29px;
+
+}
+
+.phoneNo {
+	margin: 0px 0px 0px 27px;
 
 }
 
 .separator {
 	margin: 0 8px;
-}
-
-.mail {
-	color: #ffffff;
-	font-size: 13px;
-	font-weight: 400;
-
 }
 
 .separator {
@@ -52,19 +47,63 @@
 }
 
 .headerRight {
-	margin-right: 82px;
+	margin-right: 43px;
 }
 
 .location {
 	width: 13px;
-}
-
-.headerRight span {
-	color: #ffffff;
-	font-size: 13px;
-	font-weight: 400;
+	margin:0px 0px 0px 31px;
 }
 
 .arrow {
 	width: 18px;
+}
+
+
+.header2 {
+	border-bottom: 1px solid #eee;
+	padding: 5px 0px 10px 0px;
+	justify-content: space-between;
+}
+.fresh{
+	width: 81px;
+	margin-left: 32px;
+}
+.search{
+	margin: 16px 2px 2px 59px;
+	border: solid 1px #cfcfcf;
+	padding: 7px;
+    border-radius: 8px;
+}
+#search{
+	border: none;
+	width: 400px;
+	font-size: 13px;
+	font-weight: 400;
+}
+.right{
+	margin-right: 55px;
+}
+.acc{
+	width: 50px;
+	margin: 16px 3px 0px 2px;
+}
+.img{
+	width: 26px;
+}
+.rowfont{
+	font-size: 13px;
+    line-height: 18px;
+	color: #7755A2;
+    font-weight: bold;
+	align-items: center;
+	margin: 2px 13px 2px 42px;
+	font-family: sans-serif;
+}
+ul{
+	list-style: none;
+	justify-content: center;
+}
+.row{
+	border-bottom: 1px solid #eee;
 }
