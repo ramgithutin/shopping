@@ -3,7 +3,9 @@
 	padding: 0px;
 	font-family: orkney;
 }
-
+.colorGreen{
+	color:green;
+}
 .flex {
 	display: flex;
 	
@@ -33,6 +35,19 @@
 	padding: 5px;
 	width: 100%;
 }
+.danger{
+	color: #eb5757;
+}
+/*margin*/
+.m1{
+	margin: 10px 0px 10px 0px;
+}
+.m2{
+	margin: 20px 0px 20px 0px;
+}
+.marginTop{
+	margin:10px 0px 0px 0px;
+}
 
 .image {
 	width: 14px;
@@ -61,6 +76,10 @@
 	Font-size: 13px;
 	Line-height: 18px;
 	Font-weight: 400;
+	font-family: sans-serif;
+}
+.dark{
+	font-weight: bold;
 }
 .productMedium{
 	Font-size: 13px;
@@ -70,7 +89,7 @@
 	font-family: 'OrkneyRegular';
 	padding: 9px 23px 10px 9px;
 }
-}
+
 .large{
 	font-size: 20px;
 	font-weight: 700;
@@ -247,4 +266,20 @@ ul {
 .newPrice{
 	color: #3C8031;
 	font-family: 'OrkneyRegular';
+}
+.symbol{
+	font-size: 30px;
+	color: #666;
+	border: 1px solid #aaa;
+	width: 18px;
+	text-align: center;
+}
+.number{
+	width:24px;
+}
+.fssai{
+	width:63px;
+}
+.footerFreshToHome{
+	width: 110px;
 }
