@@ -6,9 +6,11 @@
 
 .flex {
 	display: flex;
+	
+}
+.alignCenter{
 	align-items: center;
 }
-
 .pointer {
 	cursor: pointer;
 }
@@ -17,6 +19,9 @@
 	justify-content: center;
 }
 
+.flexStart{
+	align-items: flex-start;
+}
 .spaceBetween {
 	justify-content: space-between;
 }
@@ -37,6 +42,51 @@
 	color: #ffffff;
 	font-size: 12px;
 	font-weight: 400;
+	Line-height: 18px;
+}
+
+.rowfont {
+	font-size: 13px;
+	line-height: 18px;
+	color: #7755A2;
+	padding: 8px 2px 2px 0px;
+	font-weight: bold;
+	margin: 2px 43px 5px 42px;
+	font-family: sans-serif;
+}
+.rowfont:hover{
+	background-color: #7755a222;
+}
+.medium{
+	Font-size: 13px;
+	Line-height: 18px;
+	Font-weight: 400;
+}
+.productMedium{
+	Font-size: 13px;
+	Font-weight: 600;
+	Line-height: 20px;
+	color:	#333333;
+	font-family: 'OrkneyRegular';
+	padding: 9px 23px 10px 9px;
+}
+}
+.large{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 32px;
+	font-family:system-ui;
+}
+
+.larger{
+	font-size: 24px;
+	font-weight: bold;
+ 	line-height: 32px;
+}
+.priceLarge{
+	Font-weight: 400;
+	line-height: 24px;
+	color:#888888;
 }
 
 .phoneNo {
@@ -117,16 +167,6 @@
 	width: 26px;
 }
 
-.rowfont {
-	font-size: 13px;
-	line-height: 18px;
-	color: #7755A2;
-	padding: 8px 2px 2px 0px;
-	font-weight: bold;
-	margin: 2px 43px 5px 42px;
-	font-family: sans-serif;
-}
-
 ul {
 	list-style: none;
 	justify-content: center;
@@ -155,11 +195,7 @@ ul {
 	margin: 42px 0px 42px 0px;
 }
 
-.large{
-	font-size: 24px;
-    font-weight: bold;
-    line-height: 32px;
-}
+
 .mainLeft {
 	margin-left: 47px;
 }
@@ -174,10 +210,15 @@ ul {
 	border-radius: 24px 23px 0px 0px
 }
 .product{
+	border-radius: 24px 24px 0px 0px;
+	width: 25%;
+	background: white;
 	margin: 20px;
+}
+.productPage{
+	margin-top: 24px;
 	border: none;
 	border-radius: 2px;
-	width: min-content;
 }
 .smaller{
 	font-size: 10.4px;
@@ -187,7 +228,23 @@ ul {
 .color{
 	color: #777777
 }
-.colorLine{
-	
-
+.colorSmall{
+	color: #555555;
+}
+.productSubtitle{
+	padding: 5px 0px 10px 0px;
+}
+.productImage{
+	border: none;
+	margin: 10px 20px 0px 20px;
+}
+.goatImage{
+	    border-radius: 9px 9px 0px 0px;
+}
+.row1{
+	background-color:#f2f7f2;
+}
+.newPrice{
+	color: #3C8031;
+	font-family: 'OrkneyRegular';
 }
