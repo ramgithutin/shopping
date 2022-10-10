@@ -3,16 +3,20 @@
 	padding: 0px;
 	font-family: orkney;
 }
-.colorGreen{
-	color:green;
+
+.colorGreen {
+	color: green;
 }
+
 .flex {
 	display: flex;
-	
+
 }
-.alignCenter{
+
+.alignCenter {
 	align-items: center;
 }
+
 .pointer {
 	cursor: pointer;
 }
@@ -21,9 +25,10 @@
 	justify-content: center;
 }
 
-.flexStart{
+.flexStart {
 	align-items: flex-start;
 }
+
 .spaceBetween {
 	justify-content: space-between;
 }
@@ -35,23 +40,31 @@
 	padding: 5px;
 	width: 100%;
 }
-.danger{
+
+.danger {
 	color: #eb5757;
 }
+
 /*margin*/
-.m1{
+.m1 {
 	margin: 10px 0px 10px 0px;
 }
-.m2{
+
+.m2 {
 	margin: 20px 0px 20px 0px;
 }
-.marginTop{
-	margin:10px 0px 0px 0px;
+
+.marginTop {
+	margin: 10px 0px 0px 0px;
 }
 
+.marginTop2 {
+	margin: 20px 0px 0px 0px;
+}
 .image {
 	width: 14px;
 }
+
 /* font size small*/
 .small {
 	color: #ffffff;
@@ -59,7 +72,8 @@
 	font-weight: 400;
 	Line-height: 18px;
 }
-.xSmall{
+
+.xSmall {
 	font-size: 11px;
 	font-weight: 400;
 	Line-height: 18px;
@@ -74,50 +88,72 @@
 	margin: 2px 43px 5px 42px;
 	font-family: sans-serif;
 }
-.rowfont:hover{
+
+.rowfont:hover {
 	background-color: #7755a222;
 }
-.medium{
+
+.medium {
 	Font-size: 13px;
 	Line-height: 18px;
 	Font-weight: 400;
 	font-family: sans-serif;
 }
 
-.productMedium{
+.productMedium {
 	Font-size: 13px;
 	Font-weight: 600;
 	Line-height: 20px;
-	color:	#333333;
+	color: #333333;
 	font-family: 'OrkneyRegular';
 	padding: 9px 23px 10px 9px;
 }
-
-.large{
+.mediumHigh{
+	font-size:14px;
+	font-weight:600;
+	line-height:18px;
+}
+.colorDark{
+	color:#333333;
+}
+.primary{
+	color:#7755a2;
+}
+.large {
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 32px;
-	font-family:system-ui;
+	font-family: system-ui;
 }
 
-.larger{
+.larger {
 	font-size: 24px;
 	font-weight: bold;
- 	line-height: 32px;
-}
-.priceLarge{
-	Font-weight: 400;
-	line-height: 24px;
-	color:#888888;
+	line-height: 32px;
 }
 
-.smaller{
+.xLarge{
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.litter {
+	font-weight: 400;
+}
+
+.priceLarge {
+	Font-weight: 400;
+	line-height: 24px;
+	color: #888888;
+}
+
+.smaller {
 	font-size: 10.4px;
 	font-weight: 400;
 	line-height: 11.96px;
 }
 
-.dark{
+.dark {
 	font-weight: bold;
 }
 
@@ -186,7 +222,7 @@
 	margin-right: 55px;
 }
 
-.imageMain{
+.imageMain {
 	width: 94%;
 }
 
@@ -241,41 +277,51 @@
 	width: 297px;
 	border-radius: 24px 23px 0px 0px
 }
-.product{
+
+.product {
 	border-radius: 24px 24px 0px 0px;
 	width: 25%;
 	background: white;
 	margin: 20px;
 }
-.productPage{
+
+.productPage {
 	margin-top: 24px;
 	border: none;
 	border-radius: 2px;
 }
-.color{
+
+.color {
 	color: #777777
 }
-.colorSmall{
+
+.colorSmall {
 	color: #555555;
 }
-.productSubtitle{
+
+.productSubtitle {
 	padding: 5px 0px 10px 0px;
 }
-.productImage{
+
+.productImage {
 	border: none;
 	margin: 10px 20px 0px 100px;
 }
-.goatImage{
-	    border-radius: 9px 9px 0px 0px;
+
+.goatImage {
+	border-radius: 9px 9px 0px 0px;
 }
-.row1{
-	background-color:#f2f7f2;
+
+.row1 {
+	background-color: #f2f7f2;
 }
-.newPrice{
+
+.newPrice {
 	color: #3C8031;
 	font-family: 'OrkneyRegular';
 }
-.symbol{
+
+.symbol {
 	font-size: 30px;
 	color: #666;
 	border: 1px solid #aaa;
@@ -284,62 +330,89 @@
 	text-align: center;
 	font-family: orkneyRegular;
 }
-.number{
+
+.number {
 	width: 42px;
 }
-.card{
-	
-    margin-left: 20px;
-    background: #398D2C;
-    border: none;
-    padding: 9px 20px;
-    color: #fff;
-    font-family: system-ui;
+
+.card {
+
+	margin-left: 20px;
+	background: #398D2C;
+	border: none;
+	padding: 9px 20px;
+	color: #fff;
+	font-family: system-ui;
 
 }
-.fssai{
-	width:63px;
+
+.fssai {
+	width: 63px;
 }
-.footer{
+
+.footer {
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 	margin-top: 75px;
 }
-	.footerFreshToHome{
+
+.footerFreshToHome {
 	width: 110px;
 }
-.socialIcone{
+
+.socialIcone {
 	width: 32px;
 }
-.flex1{
+
+.flex1 {
 	flex: 1;
 }
-.flex2{
+
+.flex2 {
 	flex: 2;
 }
-.marginLeft{
+
+.marginLeft {
 	margin: 0px 0px 0px 80px;
 }
-.appStore{
+
+.appStore {
 	width: 125px;
 }
-.playStore{
+
+.playStore {
 	width: 150px;
 }
-.li{
+
+.li {
 	margin: 0px 10px;
 }
-.rightBorder{
-	border-right: 1px solid #e5e5e5;	
+
+.rightBorder {
+	border-right: 1px solid #e5e5e5;
 }
-.followUs{
+
+.followUs {
 	margin: 50px 0px 0px 0px;
 }
-.footer2{
+.footer2 {
 	padding: 23px 70px 0px 70px;
 	background-color: #f9f9f9;
 }
-.padding{
+
+.padding {
 	padding: 12px;
 }
+
 /*login page*/
+.textCenter{
+	text-align:center;
+}
+.contact{
+	font-family: sans-serif;
+	padding: 20px 20px 40px 20px;
+	margin: 0px 0px 0px 31px;
+}
+.cart{
+	margin: 57px 0px 0px 0px;
+}
