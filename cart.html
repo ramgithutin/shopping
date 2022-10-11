@@ -1,98 +1,151 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/orkney" type="text/css">
-    <title>Shopping Cart</title>
-    <link rel="shortcut icon" href="assets/logo.png">
-  </head>
-  <body>
-    <div>
-      <div class="header1 flex alignCenter spaceBetween">
-        <div class="headerLeft small flex alignCenter">
-          <div class="phoneNo flex alignCenter"><img src="assets/Capture.png" class="image pointer" alt="phone"> 1800-313-3302</div>
-          <div class="separator"> | </div>
-          <div class="mail flex alignCenter"><img src="assets/mail.png" class="image pointer" alt="mail"> customercare@freshtohome.com </div>
-        </div>
-        <div class="headerRight flex alignCenter"><span class="small pointer">Certificates</span>
-          <div class="separator"> | </div><span class="small pointer">Why us</span>
-          <div class="separator"> | </div><span class="small pointer">Newsroom</span>
-          <div class="separator"> | </div><span class="small pointer">Seell-With-Us </span><img src="assets/location.png" class="location" alt="location"><span class="small">Bangalore / Karnataka</span><img src="assets/down.png" class="arrow" alt="arrow">
-        </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/css.css">
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/orkney" type="text/css">
+      <title>Shopping Cart</title>
+      <link rel="shortcut icon" href="assets/logo.png">
+   </head>
+   <body>
+      <div>
+         <div class="header1 flex alignCenter spaceBetween">
+            <div class="headerLeft small flex alignCenter">
+               <div class="phoneNo flex alignCenter"><img src="assets/Capture.png" class="image pointer" alt="phone"> 1800-313-3302</div>
+               <div class="separator"> | </div>
+               <div class="mail flex alignCenter"><img src="assets/mail.png" class="image pointer" alt="mail"> customercare@freshtohome.com </div>
+            </div>
+            <div class="headerRight flex alignCenter"><span class="small pointer">Certificates</span>
+               <div class="separator"> | </div><span class="small pointer">Why us</span>
+               <div class="separator"> | </div><span class="small pointer">Newsroom</span>
+               <div class="separator"> | </div><span class="small pointer">Seell-With-Us </span><img src="assets/location.png" class="location" alt="location"><span class="small">Bangalore / Karnataka</span><img src="assets/down.png" class="arrow" alt="arrow">
+            </div>
+         </div>
+         <div class="header2 flex alignCenter spaceBetween">
+            <div class="flex alignCenter"><img src="assets/fth.png" class="fresh" alt="home">
+               <div class="search flex alignCenter"><input id="search" type="text" maxlength="128" placeholder="Search from our 100% fresh products"><img src="assets/search.png" alt="search"></div>
+            </div>
+            <div class="right"><img src="assets/account.PNG" class="acc pointer" alt="account"><img src="assets/cart.PNG" class="acc pointer" alt="cart"></div>
+         </div>
+         <div class="row">
+            <ul class="flex alignCenter">
+               <li class="fish rowfont flex alignCenter pointer"><img src="assets/fish.png" class="img" alt="fish"><span>Fish & Seafood</span></li>
+               <li class="poultry rowfont flex alignCenter pointer"><img src="assets/chicken.png" class="img" alt="chicken"><span>Poultry</span></li>
+               <li class="mutton rowfont flex alignCenter pointer"><img src="assets/mutton.png" class="img" alt="mutton"><span>Mutton</span></li>
+               <li class="steaks rowfont flex alignCenter pointer"><img src="assets/steaks.png" class="img" alt="steaks"><span>Steaks & Fillet</span></li>
+               <li class="marinated rowfont flex alignCenter pointer"><img src="assets/readytocook.png" class="img" alt="readytocook"><span>Ready to Cook</span></li>
+               <li class="vegetable rowfont flex alignCenter pointer"><img src="assets/basket.png" class="img" alt="basket"><span>Vegetarian</span></li>
+            </ul>
+         </div>
+         <div class="cart">
+            <div class="xLarge flex center primary">Shopping Cart</div>
+            <div class="mediumHigh danger textCenter marginTop2">Free shipping on order above ₹699</div>
+            <div class="flex row spaceBetween productDetails">
+               <div class="medium flex3">PRODUCT</div>
+               <div class="medium flex1">UNIT PRICE</div>
+               <div class="medium flex1">QTY</div>
+               <div class="medium flex1">SUBTOTAL</div>
+            </div>
+            <div class=" cartProduct flex ">
+               <div>
+                  <img src="assets/goat.jpg" class="productImageSizing" alt="food">
+               </div>
+               <div class="name">   
+                  <h2 class="productLarge">Tender & Antibiotic-residue-free Chicken - Skinless Curry Cut (480g to 500g Pack)</h2>
+               </div>
+               <div class="flex flex1 spaceAround price">
+                  <div class=" mediumHigh litter colorSmall ">₹144.00</div>
+	          <div>
+	             <span class="quantity">-</span><span class="quantityNumber quantity">1</span><span class="quantity">+</span>
+                  </div>
+                  <div class="subTotal colorSmall mediumHigh litter">₹368.00</div>
+                  <div>
+                     <img src="assets/dustbin.png" class="remove" alt="remove">
+                  </div>
+               </div>
+            </div>
+            <div class="flex flexEnd padding">
+               <div class="cartUpdate">Update Cart</div>
+               <div class="cartUpdate">Clear Cart</div>
+               <div class="cartUpdate">Continue Shopping</div>
+	    </div>
+	    <div class="flex m2">
+               <div class="apply flex2">
+	          <div class="flex">
+                     <input type="text" class="redeem" placeholder="REDEEM COUPON CODE">
+		     <button>Apply</button>
+                  </div>
+	       </div>
+               <div class="flex1 borderTop">
+                   <div class="flex spaceAround flex1 m1">
+              	      <div>Item subtotal</div>
+              	      <div>₹448.00</div>
+                   </div>
+                   <div class="flex spaceAround flex1 m1">
+              	      <div>Grand Total</div>
+              	      <div>₹448.00</div>
+                   </div>
+                   <div class="flex spaceAround flex1 m1">
+              	      <div>Amount to Pay</div>
+              	      <div>₹448.00</div>
+                   </div>
+               </div>
+            </div>
+            <div class="flex m2 flexEnd">
+	       <button>Proceed to Checkout</button>
+	    </div>
+         </div>
+         <div class="footer flex">
+            <div class="flex1 marginLeft rightBorder colorSmall"><img src="assets/fth.png" class="footerFreshToHome" alt="fresh to home">
+               <div class="medium">Freshtohome Foods Private Limited No. 1,</div>
+               <div class="medium">2nd Floor, Carlton Towers, Old Airport</div>
+               <div class="medium">Road, Bangalore - 560008</div>
+            </div>
+            <div class="flex2  rightBorder colorSmall">
+               <ul class="flex center">
+                  <li class="medium ul li"> FAQ </li>
+                  <li class="medium li"> News room </li>
+                  <li class="medium li"> Blog </li>
+                  <li class="medium li"> Didn't find your peoduct? </li>
+                  <li class="medium li"></li>
+               </ul>
+               <ul class="flex center ">
+                  <li class="medium ul li"> Terms and Conditions </li>
+                  <li class="medium li">Privacy Policy</li>
+                  <li class="medium li">Refund Policy</li>
+                  <li class="medium li">Sellers</li>
+                  <li class="medium li"></li>
+               </ul>
+               <div class="flex medium center">Contact us</div>
+               <div class="flex center alignCenter"><img src="assets/appstore.png" class="appStore" alt="apple store"><img src="assets/playstore.png" class="playStore" alt="play store"></div>
+               <div class="medium flex center alignCenter">Order your daily Fish, Poultry and Mutton. Get it delivered at your door steps.</div>
+               <div class="xSmall flex center alignCenter marginTop">Bangalore, Delhi, Gurgaon, Noida, Ghaziabad, Mumbai, Pune, Chennai, Hyderabad, Cochin,</div>
+               <div class="xSmall flex center alignCenter">Trivandrum, Calicut, Kolkata, Warangal, Jaipur, Kanpur, Lucknow, Faridabad, Chandigarh,</div>
+               <div class="xSmall flex center alignCenter">Mohali, Coimbatore, Vizag, Dehradun, Mysore, Mangalore, Nagpur, Nashik and more</div>
+            </div>
+            <div class="flex1 colorSmall">
+               <div class="medium flex center  dark">Contact Us</div>
+               <div class="medium flex center">1800-313-3302</div>
+               <div class="medium flex center ">customercare@freshtohome.com</div>
+               <div class="medium flex center followUs dark">Follow Us</div>
+               <div class="flex center alignCenter"><img src="assets/facebook.png" class="socialIcone" alt="facebook"><img src="assets/twitter.png" class="socialIcone" alt="twitter"><img src="assets/instagram.png" class="socialIcone" alt="instagram"><img src="assets/youtube.png" class="socialIcone" alt="youtube"></div>
+            </div>
+         </div>
+         <div class="footer2">
+            <div class="smaller color dark"> Marine Fish </div>
+            <div class="smaller color"> Anchovy / Kozhuva / Natholi | Barracuda / Cheelavu | Pomfret / Avoli | Threadfin Bream / Kilimeen / Goat Fish | Butter Fish / Punnarameen | Cobia / Motha | Emperor / Eari | Garfish / Kola | Grey Mullet / Thirutha | Grouper / Reef Cods / Kalava | Mackerel / Ayala | Salmon | Lady Fish / Silver whiting / Kane | Silver Biddy / Pranjil | Long Whiskered / Catfish | Mahi Mahi | Milk Fish / Poomeen | Pony Fish / Mullan | Red Snapper / Chempalli / Rane | Reef Cods / Kalava | Ribbon Fish / Vaala | Sail Fish / Ola Meen | Sardine / Mathy / Mathi | Seer Fish / Neymeen / Surumai | Shark | Shrimp Scad / Vatta Paara | Pomfret / Avoli / Pabda | Snapper | Sole Fish / Manthal / Repti | Sword Fish | Trevally / Vatta | Tuna | White Sardine / Veloori | Jobfish | Stingray / Thirandi | Eel / Mananjil | Kallanki | Queen Fish | Silver Belly / Thaali Mullen | </div>
+            <div class="smaller color dark marginTop">Shell Fish</div>
+            <div class="smaller color">Shrimp | Clam / Kakka | Cuttle Fish | Green Mussel Meat / Kallummekkaya | Lobster | Prawns / Venami | Octopus | Oyster Meat | Sand Lobster | Scampi / Attukonchu / Jinga / Chingdi | Crab | Mud Crab | Squid / Koonthal | Tiger prawn / Bagda / Chingri </div>
+            <div class="smaller color dark marginTop">Freshwater Fish</div>
+            <div class="smaller color">Baasa / Pangasius | Catla / Katla | Freshwater Milk Fish / Kayal Poomeen | Goby / Poolan / Bele Mach | Mrigal / Kanni Meen | Mullet / Kanambu / Parshe Maach | Pearl Spot / Karimeen / Koral | Rohu | Tilapia | Catfish / Manjakoori / Tengra Mach | Barramundi / Bhetki / Asian Seabass | </div>
+            <div class="smaller color dark marginTop">Poultry</div>
+            <div class="smaller color">Chicken | Sasso Chicken | Chicken Lollipop | Chicken Breast | Chicken Drumsticks | Duck | Kuttandan Duck | Vigova Duck | Duck Egg | </div>
+            <div class="smaller color dark marginTop">Meat</div>
+            <div class="smaller color">Mutton | Goat | Lamb | Lamb Chops | Goat Mince |</div>
+         </div>
+         <div class="small padding color flex alignCenter center">© 2022 www.freshtohome.com. All Rights Reserved. </div>
       </div>
-      <div class="header2 flex alignCenter spaceBetween">
-        <div class="flex alignCenter"><img src="assets/fth.png" class="fresh" alt="home">
-          <div class="search flex alignCenter"><input id="search" type="text" maxlength="128" placeholder="Search from our 100% fresh products"><img src="assets/search.png" alt="search"></div>
-        </div>
-        <div class="right"><img src="assets/account.PNG" class="acc pointer" alt="account"><img src="assets/cart.PNG" class="acc pointer" alt="cart"></div>
-      </div>
-      <div class="row">
-        <ul class="flex alignCenter">
-          <li class="fish rowfont flex alignCenter pointer"><img src="assets/fish.png" class="img" alt="fish"><span>Fish & Seafood</span></li>
-          <li class="poultry rowfont flex alignCenter pointer"><img src="assets/chicken.png" class="img" alt="chicken"><span>Poultry</span></li>
-          <li class="mutton rowfont flex alignCenter pointer"><img src="assets/mutton.png" class="img" alt="mutton"><span>Mutton</span></li>
-          <li class="steaks rowfont flex alignCenter pointer"><img src="assets/steaks.png" class="img" alt="steaks"><span>Steaks & Fillet</span></li>
-          <li class="marinated rowfont flex alignCenter pointer"><img src="assets/readytocook.png" class="img" alt="readytocook"><span>Ready to Cook</span></li>
-          <li class="vegetable rowfont flex alignCenter pointer"><img src="assets/basket.png" class="img" alt="basket"><span>Vegetarian</span></li>
-        </ul>
-      </div>
-      <div class="cart">
-          <div class="xLarge flex center primary">Shopping Cart</div>
-          <div class="mediumHigh danger textCenter">Free shipping on order above ₹699</div>
-	  
-      </div>
-      <div class="footer flex">
-        <div class="flex1 marginLeft rightBorder colorSmall"><img src="assets/fth.png" class="footerFreshToHome" alt="fresh to home">
-          <div class="medium">Freshtohome Foods Private Limited No. 1,</div>
-          <div class="medium">2nd Floor, Carlton Towers, Old Airport</div>
-          <div class="medium">Road, Bangalore - 560008</div>
-        </div>
-        <div class="flex2  rightBorder colorSmall">
-          <ul class="flex center">
-            <li class="medium ul li"> FAQ </li>
-            <li class="medium li"> News room </li>
-            <li class="medium li"> Blog </li>
-            <li class="medium li"> Didn't find your peoduct? </li>
-            <li class="medium li"></li>
-          </ul>
-          <ul class="flex center ">
-            <li class="medium ul li"> Terms and Conditions </li>
-            <li class="medium li">Privacy Policy</li>
-            <li class="medium li">Refund Policy</li>
-            <li class="medium li">Sellers</li>
-            <li class="medium li"></li>
-          </ul>
-          <div class="flex medium center">Contact us</div>
-          <div class="flex center alignCenter"><img src="assets/appstore.png" class="appStore" alt="apple store"><img src="assets/playstore.png" class="playStore" alt="play store"></div>
-          <div class="medium flex center alignCenter">Order your daily Fish, Poultry and Mutton. Get it delivered at your door steps.</div>
-          <div class="xSmall flex center alignCenter marginTop">Bangalore, Delhi, Gurgaon, Noida, Ghaziabad, Mumbai, Pune, Chennai, Hyderabad, Cochin,</div>
-          <div class="xSmall flex center alignCenter">Trivandrum, Calicut, Kolkata, Warangal, Jaipur, Kanpur, Lucknow, Faridabad, Chandigarh,</div>
-          <div class="xSmall flex center alignCenter">Mohali, Coimbatore, Vizag, Dehradun, Mysore, Mangalore, Nagpur, Nashik and more</div>
-        </div>
-        <div class="flex1 colorSmall">
-          <div class="medium flex center  dark">Contact Us</div>
-          <div class="medium flex center">1800-313-3302</div>
-          <div class="medium flex center ">customercare@freshtohome.com</div>
-          <div class="medium flex center followUs dark">Follow Us</div>
-          <div class="flex center alignCenter"><img src="assets/facebook.png" class="socialIcone" alt="facebook"><img src="assets/twitter.png" class="socialIcone" alt="twitter"><img src="assets/instagram.png" class="socialIcone" alt="instagram"><img src="assets/youtube.png" class="socialIcone" alt="youtube"></div>
-        </div>
-      </div>
-      <div class="footer2">
-        <div class="smaller color dark"> Marine Fish </div>
-        <div class="smaller color"> Anchovy / Kozhuva / Natholi | Barracuda / Cheelavu | Pomfret / Avoli | Threadfin Bream / Kilimeen / Goat Fish | Butter Fish / Punnarameen | Cobia / Motha | Emperor / Eari | Garfish / Kola | Grey Mullet / Thirutha | Grouper / Reef Cods / Kalava | Mackerel / Ayala | Salmon | Lady Fish / Silver whiting / Kane | Silver Biddy / Pranjil | Long Whiskered / Catfish | Mahi Mahi | Milk Fish / Poomeen | Pony Fish / Mullan | Red Snapper / Chempalli / Rane | Reef Cods / Kalava | Ribbon Fish / Vaala | Sail Fish / Ola Meen | Sardine / Mathy / Mathi | Seer Fish / Neymeen / Surumai | Shark | Shrimp Scad / Vatta Paara | Pomfret / Avoli / Pabda | Snapper | Sole Fish / Manthal / Repti | Sword Fish | Trevally / Vatta | Tuna | White Sardine / Veloori | Jobfish | Stingray / Thirandi | Eel / Mananjil | Kallanki | Queen Fish | Silver Belly / Thaali Mullen | </div>
-        <div class="smaller color dark marginTop">Shell Fish</div>
-        <div class="smaller color">Shrimp | Clam / Kakka | Cuttle Fish | Green Mussel Meat / Kallummekkaya | Lobster | Prawns / Venami | Octopus | Oyster Meat | Sand Lobster | Scampi / Attukonchu / Jinga / Chingdi | Crab | Mud Crab | Squid / Koonthal | Tiger prawn / Bagda / Chingri </div>
-        <div class="smaller color dark marginTop">Freshwater Fish</div>
-        <div class="smaller color">Baasa / Pangasius | Catla / Katla | Freshwater Milk Fish / Kayal Poomeen | Goby / Poolan / Bele Mach | Mrigal / Kanni Meen | Mullet / Kanambu / Parshe Maach | Pearl Spot / Karimeen / Koral | Rohu | Tilapia | Catfish / Manjakoori / Tengra Mach | Barramundi / Bhetki / Asian Seabass | </div>
-        <div class="smaller color dark marginTop">Poultry</div>
-        <div class="smaller color">Chicken | Sasso Chicken | Chicken Lollipop | Chicken Breast | Chicken Drumsticks | Duck | Kuttandan Duck | Vigova Duck | Duck Egg | </div>
-        <div class="smaller color dark marginTop">Meat</div>
-        <div class="smaller color">Mutton | Goat | Lamb | Lamb Chops | Goat Mince |</div>
-      </div>
-      <div class="small padding color flex alignCenter center">© 2022 www.freshtohome.com. All Rights Reserved. </div>
-    </div>
-  </body>
+   </body>
 </html>
