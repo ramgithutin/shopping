@@ -286,18 +286,38 @@
 	padding: 0px 0px 3px 34px;
 }
 
-.img3 {
-	width: 297px;
-	border-radius: 24px 23px 0px 0px
+.timer{
+	background: linear-gradient(90deg,#f4b64d 0,#f72973 99.77%);
+	color: #ffffff;
+	border-radius: 4px;
+	padding: 1px 4px;
 }
 
+.img3 {
+	width: 297px;
+	border-radius: 10px 10px 0px 0px;
+	border: 1px solid #eeeeee;
+}
+
+.img4 {
+	width:195px;
+}
 .product {
-	border-radius: 24px 24px 0px 0px;
 	width: 25%;
 	background: white;
 	margin: 20px;
 }
-
+.pb{
+	border-radius: 0px 0px 10px 10px;
+	border: 1px solid #eeeeee;
+}
+.productBorder{
+	border-radius: 0px 0px 10px 10px;
+	border: 1px solid #eeeeee;
+}
+.productBorder:hover{
+	background-color: #eeeeee;
+}
 .productIcon{
 	position:relative;
 }
@@ -443,6 +463,13 @@
 	padding: 20px 20px 40px 20px;
 	margin: 0px 0px 0px 31px;
 }
+.certificate img{
+	width: 929px;
+	padding: 0px 6px 0px 25px;
+}
+.appBanner img{
+	width:296px;
+}
 .cart{
 	margin: 57px 0px 0px 0px;
 }
@@ -520,4 +547,11 @@ button {
 }
 .textArea{
 	width: 670px;
+}
+/*hover areas*/
+.pb:hover .colorChange {
+	color:#7755A2;
+}
+.pb:hover button {
+	background-color:#7755A2;
 }
