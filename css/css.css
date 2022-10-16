@@ -324,6 +324,7 @@
 	background: white;
 	margin: 20px;
 	cursor: pointer;
+	display: inline-table;
 }
 
 .pb {
