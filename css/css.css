@@ -29,7 +29,7 @@
 }
 
 .flexStart {
-	justify: flex-start;
+	justify-content: flex-start;
 }
 
 .spaceBetween {
